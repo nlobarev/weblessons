@@ -4,9 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Nlobarev</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>@Nlobarev</title>
 </head>
 <body>
-  <a href="hello.html">Presdents</a>
+  <div class="">
+    <input type="text" id="inputPassword" onkeyup="inputPassword()" onkeydown="inputPassword()" value="" autofocus maxlength="
+    8">
+    <form class="container" id="passInputForm">
+      <input type="text" class="passInputField" disabled  name="" value="" placeholder="P">
+      <input type="text" class="passInputField" disabled  name="" value="" placeholder="A">
+      <input type="text" class="passInputField" disabled  name="" value="" placeholder="S">
+      <input type="text" class="passInputField" disabled  name="" value="" placeholder="S">
+      <input type="text" class="passInputField" disabled  name="" value="" placeholder="W">
+      <input type="text" class="passInputField" disabled  name="" value="" placeholder="O">
+      <input type="text" class="passInputField" disabled  name="" value="" placeholder="R">
+      <input type="text" class="passInputField" disabled  name="" value="" placeholder="D">
+    </form>
+    <div id="door">
+      <canvas id="door-left" width="300" height="300"></canvas>
+      <canvas id="door-right" width="300" height="300"></canvas>
+    </div>
+    <canvas id="myCanvas">Your browser is not supported.</canvas>
+
+  </div>
+
+
+
+
+
+
+  <script src="js/animation_02.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
